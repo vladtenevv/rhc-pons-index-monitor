@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  pons-monitor:
+    build: .
+    environment:
+      - NODE_ENV=production
+      - PONS_RPC_URL=wss://mainnet.rhc.network/pons

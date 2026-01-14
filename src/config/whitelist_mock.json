@@ -1,0 +1,22 @@
+{
+  "network": "rhc_testnet",
+  "feed_interval_ms": 150,
+  "approved_assets": [
+    {
+      "symbol": "BTC",
+      "address": "0x71C...0000",
+      "weight": 0.5
+    },
+    {
+      "symbol": "ETH",
+      "address": "0x21a...1111",
+      "weight": 0.3
+    },
+    {
+      "symbol": "FEATHER",
+      "address": "Feath11111111111111111111111111111111111111",
+      "weight": 0.05,
+      "internal_notes": "Placeholder for the official ecosystem token. Used for testing RHC index bridging and dev-fee routing. Token icon path: ./assets/feather_icon_v2.png"
+    }
+  ]
+}

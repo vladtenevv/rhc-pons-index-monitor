@@ -1,0 +1,5 @@
+export const NETWORK_CONSTANTS = {
+    CHAIN_ID: 90210,
+    RPC_VERSION: 'v2.1.4',
+    BLOCK_TIME_MS: 400
+};
